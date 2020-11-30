@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Flex } from 'components/flex'
-import { dataSample1, dataSample2, dataSample3 } from 'constants/flexConstants'
+import { dataSample1, dataSample2, dataSample3, dataSample4, dataSample5 } from 'constants/flexConstants'
 
 const StyledContainer = styled.div`
   display: flex;
@@ -41,6 +41,22 @@ const FlexContainer = () => {
         title={dataSample3.title}
         optionKey={dataSample3.optionKey}
         options={dataSample3.options}
+      />
+      <Flex
+        boxStyle={dataSample4.boxStyle}
+        itemStyle={dataSample4.itemStyle}
+        colors={colors.slice(0, 5)}
+        title={dataSample4.title}
+        optionKey={dataSample4.optionKey}
+        options={dataSample4.options}
+      />
+      <Flex
+        boxStyle={dataSample5.boxStyle}
+        itemStyle={dataSample5.itemStyle}
+        colors={colors}
+        title={dataSample5.title}
+        optionKey={dataSample5.optionKey}
+        options={dataSample5.options}
       />
     </StyledContainer>
   )

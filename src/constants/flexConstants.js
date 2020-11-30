@@ -43,3 +43,49 @@ export const dataSample3 = {
     { value: 'space-around', label: 'space-around' },
   ],
 }
+
+export const dataSample4 = {
+  title: 'sample 4',
+  optionKey: 'align-items',
+  boxStyle: {
+    display: 'flex',
+    flexFlow: 'row nowrap',
+    height: '300px',
+  },
+  itemStyle: {
+    // '&:nth-child(3)': {
+    //   height: '100px',
+    // },
+    'min-height': '100px',
+    height: 'auto',
+  },
+  options: [
+    { value: 'flex-start', label: 'flex-start' },
+    { value: 'flex-end', label: 'flex-end' },
+    { value: 'center', label: 'center' },
+    { value: 'baseline', label: 'baseline' },
+    { value: 'stretch', label: 'stretch' },
+  ],
+}
+
+export const dataSample5 = {
+  title: 'sample 5',
+  optionKey: 'align-content',
+  boxStyle: {
+    display: 'flex',
+    flexFlow: 'row wrap',
+    height: '300px',
+  },
+  itemStyle: {
+    'min-height': '100px',
+    height: 'auto',
+  },
+  options: [
+    { value: 'flex-start', label: 'flex-start' },
+    { value: 'flex-end', label: 'flex-end' },
+    { value: 'center', label: 'center' },
+    { value: 'space-between', label: 'space-between' },
+    { value: 'space-around', label: 'space-around' },
+    { value: 'stretch', label: 'stretch' },
+  ],
+}
