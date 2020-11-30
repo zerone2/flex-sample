@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 
 const SectionContainer = styled.div`
-  width: 1000px;
+  width: 900px;
   border: 1px solid #000;
   padding: 20px;
   margin: 30px 0;
